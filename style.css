@@ -1,0 +1,34 @@
+.navbar{
+    background-color: #2c3e50;
+    height: 104px;
+}
+.navbar-brand{
+    color: white;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    font-size: 28px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-weight: 700;
+    line-height: 42px;
+    margin-left: 26px;
+    
+}
+.nav-link{
+    color: white;
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    line-height: 24px;
+    font-weight: 700;
+    padding: 16px;
+    text-align: left;
+}
+
+.conteiner-header{
+    background-color: #1abc9c;
+    margin-bottom :48px;
+}
+
+#avatar{
+    width: 240px;
+    min-height: 250px;
+    line-height :24px;
+}
