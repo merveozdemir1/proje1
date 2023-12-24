@@ -1,43 +1,118 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freelancer-Start Bootstrap Theme</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelancer-Start Bootstrap Theme</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body id="page-top">
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand"  href="#page-top">START BOOTSTRAP</a>
+      <a class="navbar-brand" href="#page-top">START BOOTSTRAP</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="#portfolio">PORTFOLİO</a>
+            <a class="nav-link mx-auto" href="#portfolio.">PORTFOLIO</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">ABOUT</a>
+            <a class="nav-link mx-auto" href="#about.">ABOUT</a>
           </li>
-          
-          
+
+
         </ul>
       </div>
     </div>
   </nav>
   <section>
-   <div class="conteiner-header">
-     <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/avataaars.svg" alt="avatar" id="avatar">
-     <h1>START BOOTSTRAP</h1>
-     <p>Graphic Artist - Web Designer - Illustrator</p>
-   </div>
+    <div class="container-header">
+      <img class="mx-auto" src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/avataaars.svg" alt="avatar" id="avatar">
+      <h1 class="mt-5 mb-0 mx-auto">START BOOTSTRAP</h1>
+      <p class="mt-4 mx-auto">Graphic Artist - Web Designer - Illustrator</p>
+    </div>
   </section>
+  <section class="portfolio" id="portfolio.">
+    <div class="container">
+      <h2 class="mb-5">PORTFOLIO</h2>
+      <div class="row">
+        <div class="col-4 mb-5">
+          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/cabin.png" class="rounded float-start" alt="cabin">
+        </div>
+        <div class="col-4 mb-5">
+          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/cake.png" class="rounded mx-auto d-block" alt="cake">
+        </div>
+        <div class="col-4 mb-5">
+          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/circus.png" class="rounded float-end" alt="circus">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/game.png" class="rounded float-start" alt="game">
+        </div>
+        <div class="col-4">
+          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/safe.png" class="rounded mx-auto d-block" alt="safe">
+        </div>
+        <div class="col-4">
+          <img src="https://demo.onlyjs.com/exercises/bootstrap-layout/assets/img/portfolio/submarine.png" class="rounded float-end" alt="submarine">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="about" id="about.">
+    <div class="container-about">
+      <h2 class="mb-5">ABOUT</h2>
+      <div class="row mt-5">
+        <div class="col-4 ms-auto">
+          <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+        </div>
+        <div class="col-4 me-auto">
+          <p>You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+
+        </div>
+
+
+      </div>
+      <div class="mt-4" id="buttons">
+        <button type="button" class="btn btn-outline-light">Free Download!</button>
+      </div>
+    </div>
+  </section>
+  <section class="location">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 mb-4">
+          <h4>LOCATION</h4>
+          <p>2215 John Daniel Drive<br>
+            Clark,MO 65243</p>
+        </div>
+        <div class="col-4">
+          <h4>AROUND THE WEB</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Recusandae, ipsum!</p>
+        </div>
+        <div class="col-4">
+          <h4>ABOUT FREELANCER</h4>
+          <p>Freelancer is a free to use, MIT licensed Bootstrap theme created by&nbsp;<a href="https://startbootstrap.com">Start Bootstrap</a></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer py-4">
+    <div class="container">
+      <small>Copyright &copy; A.Merve Özdemir 2023</small>
+    </div>
+
+  </footer>
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
+
 </html>
